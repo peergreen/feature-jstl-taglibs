@@ -11,8 +11,7 @@
   - limitations under the License.
   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <groupId>com.peergreen</groupId>
     <artifactId>peergreen-pom</artifactId>
@@ -23,7 +22,7 @@
   <packaging>bundle</packaging>
   <groupId>com.peergreen.jstl</groupId>
   <artifactId>peergreen-jstl-taglibs</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <name>Peergreen JSTL with Apache Taglibs</name>
 
@@ -35,7 +34,7 @@
     <connection>scm:git:https://forge.peergreen.com/git/git/feature/jstl/taglibs.git</connection>
     <developerConnection>scm:git:https://forge.peergreen.com/git/git/feature/jstl/taglibs.git</developerConnection>
     <url>https://forge.peergreen.com/git/summary/?r=feature/jstl/taglibs.git</url>
-    <tag>HEAD</tag>
+    <tag>PEERGREEN_JSTL_TAGLIBS_1_0_0</tag>
   </scm>
 
   <dependencies>
