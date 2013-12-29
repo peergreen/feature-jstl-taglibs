@@ -16,7 +16,7 @@
   <parent>
     <groupId>com.peergreen</groupId>
     <artifactId>peergreen-pom</artifactId>
-    <version>3</version>
+    <version>3.2</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
@@ -28,7 +28,6 @@
   <name>Peergreen JSTL with Apache Taglibs</name>
 
   <properties>
-    <taglibs.version>3.0.0-M1-SNAPSHOT</taglibs.version>
     <apache-rat-plugin.ignoreErrors>false</apache-rat-plugin.ignoreErrors>
   </properties>
 
@@ -50,7 +49,7 @@
     <dependency>
       <groupId>com.peergreen.webcontainer</groupId>
       <artifactId>peergreen-webcontainer-api</artifactId>
-      <version>1.0.2-SNAPSHOT</version>
+      <version>1.0.2</version>
       <scope>provided</scope>
     </dependency>
 
